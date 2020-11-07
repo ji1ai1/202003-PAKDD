@@ -119,12 +119,7 @@ GetData = function(x_features)
 }
 
 
-TestingDi = 0
-
-
 TrainingLogs[, Index := rank(-Di), .(SerialNumber, Model)]
-
-
 
 Index = 1
 set.seed(73)
